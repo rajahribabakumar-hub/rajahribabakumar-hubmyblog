@@ -1,0 +1,274 @@
+{
+  "siteInfo": {
+    "name": "Raja AI Tech",
+    "domain": "rajakumar18.in",
+    "owner": "Raja Kumar",
+    "email": "rajahribabakumar@gmail.com",
+    "phone": "9682316132",
+    "youtube": "https://www.youtube.com/@rajakumar18in"
+  },
+  "announcements": [
+    {
+      "id": 1,
+      "text": "New AI Tools Guide Available - Check out our latest comprehensive guide!",
+      "link": "posts/post4.html",
+      "active": true
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "ChatGPT Plus Subscription",
+      "description": "Unlock the full potential of AI with ChatGPT Plus. Get faster responses, priority access to new features, and GPT-4 capabilities for enhanced productivity.",
+      "image": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "link": "https://openai.com/chatgpt",
+      "category": "AI Tools",
+      "featured": true,
+      "price": "$20/month"
+    },
+    {
+      "id": 2,
+      "title": "Midjourney AI Art Generator",
+      "description": "Create stunning AI-generated artwork with Midjourney. Perfect for designers, content creators, and artists looking to explore AI creativity.",
+      "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "link": "https://midjourney.com",
+      "category": "AI Art",
+      "featured": true,
+      "price": "$10/month"
+    },
+    {
+      "id": 3,
+      "title": "Surfer SEO AI Tool",
+      "description": "Optimize your content with AI-powered SEO analysis. Get data-driven recommendations to rank higher in search results.",
+      "image": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "link": "https://surferseo.com",
+      "category": "SEO Tools",
+      "featured": true,
+      "price": "$59/month"
+    },
+    {
+      "id": 4,
+      "title": "Jasper AI Writing Assistant",
+      "description": "Generate high-quality content in seconds with Jasper AI. Perfect for blog posts, marketing copy, and social media content.",
+      "image": "https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "link": "https://jasper.ai",
+      "category": "Content Creation",
+      "featured": false,
+      "price": "$49/month"
+    },
+    {
+      "id": 5,
+      "title": "Notion AI Workspace",
+      "description": "Supercharge your productivity with Notion AI. Write, summarize, and brainstorm with integrated AI assistance.",
+      "image": "https://images.pexels.com/photos/17721298/pexels-photo-17721298.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "link": "https://notion.so",
+      "category": "Productivity",
+      "featured": true,
+      "price": "$10/month"
+    },
+    {
+      "id": 6,
+      "title": "Grammarly Premium AI",
+      "description": "Enhance your writing with AI-powered grammar checking, clarity suggestions, and tone detection. Perfect for professionals.",
+      "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "link": "https://grammarly.com",
+      "category": "Writing Tools",
+      "featured": false,
+      "price": "$12/month"
+    },
+    {
+      "id": 7,
+      "title": "Canva Pro Design Suite",
+      "description": "Create professional designs with AI-powered features. Magic design, background removal, and brand kit included.",
+      "image": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "link": "https://canva.com",
+      "category": "Design Tools",
+      "featured": true,
+      "price": "$12.99/month"
+    },
+    {
+      "id": 8,
+      "title": "Descript AI Video Editor",
+      "description": "Edit videos by editing text with AI-powered transcription. Perfect for podcasters and content creators.",
+      "image": "https://images.pexels.com/photos/2388187/pexels-photo-2388187.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "link": "https://descript.com",
+      "category": "Video Tools",
+      "featured": false,
+      "price": "$12/month"
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "title": "OpenAI Official Documentation",
+      "description": "Learn about the latest AI models and APIs from OpenAI's official documentation.",
+      "url": "https://platform.openai.com/docs",
+      "category": "Resources"
+    },
+    {
+      "id": 2,
+      "title": "Google AI Blog",
+      "description": "Stay updated with the latest research and developments from Google AI team.",
+      "url": "https://blog.google/technology/ai/",
+      "category": "Blog"
+    },
+    {
+      "id": 3,
+      "title": "Hugging Face Models",
+      "description": "Explore thousands of pre-trained AI models and datasets for your projects.",
+      "url": "https://huggingface.co",
+      "category": "Resources"
+    },
+    {
+      "id": 4,
+      "title": "Google Analytics Academy",
+      "description": "Free courses on digital marketing and analytics from Google.",
+      "url": "https://analytics.google.com/analytics/academy/",
+      "category": "Learning"
+    },
+    {
+      "id": 5,
+      "title": "GitHub Copilot",
+      "description": "AI-powered code completion and suggestions for developers.",
+      "url": "https://github.com/features/copilot",
+      "category": "Developer Tools"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "ChatGPT and the Revolution of Conversational AI: A Complete Guide",
+      "description": "Discover how ChatGPT is transforming the way we interact with artificial intelligence and what it means for the future of technology.",
+      "category": "Artificial Intelligence",
+      "date": "June 28, 2026",
+      "url": "posts/post1.html",
+      "image": "AI"
+    },
+    {
+      "id": 2,
+      "title": "Machine Learning Fundamentals: From Beginner to Expert",
+      "description": "A comprehensive guide to understanding machine learning concepts, algorithms, and real-world applications.",
+      "category": "Machine Learning",
+      "date": "June 27, 2026",
+      "url": "posts/post2.html",
+      "image": "ML"
+    },
+    {
+      "id": 3,
+      "title": "AI-Powered Digital Marketing Strategies for 2026",
+      "description": "Learn how artificial intelligence is revolutionizing digital marketing and how to leverage these tools for success.",
+      "category": "Digital Marketing",
+      "date": "June 26, 2026",
+      "url": "posts/post3.html",
+      "image": "DM"
+    },
+    {
+      "id": 4,
+      "title": "Top 10 AI Tools Every Content Creator Needs in 2026",
+      "description": "Explore the essential AI tools that can transform your content creation workflow and boost productivity.",
+      "category": "AI Tools",
+      "date": "June 25, 2026",
+      "url": "posts/post4.html",
+      "image": "GPT"
+    },
+    {
+      "id": 5,
+      "title": "The Future of SEO: How AI is Changing Search Engine Optimization",
+      "description": "Understand how artificial intelligence is reshaping SEO strategies and what you need to know to stay ahead.",
+      "category": "SEO",
+      "date": "June 24, 2026",
+      "url": "posts/post5.html",
+      "image": "SEO"
+    },
+    {
+      "id": 6,
+      "title": "Blockchain Technology Beyond Cryptocurrency: Real-World Applications",
+      "description": "Discover how blockchain technology is being applied across industries beyond just cryptocurrency.",
+      "category": "Technology",
+      "date": "June 23, 2026",
+      "url": "posts/post6.html",
+      "image": "BC"
+    },
+    {
+      "id": 7,
+      "title": "Computer Vision in Healthcare: Revolutionizing Medical Diagnosis",
+      "description": "An in-depth look at how computer vision AI is transforming healthcare diagnostics and patient care.",
+      "category": "Computer Vision",
+      "date": "June 22, 2026",
+      "url": "posts/post7.html",
+      "image": "CV"
+    },
+    {
+      "id": 8,
+      "title": "AI-Generated Art: The Creative Revolution and Its Implications",
+      "description": "Explore the world of AI-generated art, from DALL-E to Midjourney, and what it means for creativity.",
+      "category": "AI Art",
+      "date": "June 21, 2026",
+      "url": "posts/post8.html",
+      "image": "AG"
+    },
+    {
+      "id": 9,
+      "title": "Internet of Things and AI: Building Smarter Connected Systems",
+      "description": "Learn how AI and IoT are converging to create intelligent, connected systems for homes and industries.",
+      "category": "IoT",
+      "date": "June 20, 2026",
+      "url": "posts/post9.html",
+      "image": "IoT"
+    },
+    {
+      "id": 10,
+      "title": "Natural Language Processing: Understanding How AI Understands Us",
+      "description": "A comprehensive guide to NLP technology and its applications in modern AI systems.",
+      "category": "NLP",
+      "date": "June 19, 2026",
+      "url": "posts/post10.html",
+      "image": "NP"
+    },
+    {
+      "id": 11,
+      "title": "Robotics and AI: The Future of Automation is Here",
+      "description": "Discover how AI-powered robotics is transforming manufacturing, healthcare, and daily life.",
+      "category": "Robotics",
+      "date": "June 18, 2026",
+      "url": "posts/post11.html",
+      "image": "RC"
+    },
+    {
+      "id": 12,
+      "title": "AI in Cybersecurity: Protecting Digital Assets in the Modern Age",
+      "description": "Learn how artificial intelligence is being used to detect and prevent cyber threats effectively.",
+      "category": "Cybersecurity",
+      "date": "June 17, 2026",
+      "url": "posts/post12.html",
+      "image": "CS"
+    },
+    {
+      "id": 13,
+      "title": "AI in Education: Transforming Learning for the Next Generation",
+      "description": "Explore how AI is personalizing education and creating new opportunities for learners worldwide.",
+      "category": "Education",
+      "date": "June 16, 2026",
+      "url": "posts/post13.html",
+      "image": "ED"
+    },
+    {
+      "id": 14,
+      "title": "Big Data and AI: Uncovering Insights from Massive Datasets",
+      "description": "Understand how AI processes and analyzes big data to reveal valuable business insights.",
+      "category": "Data Analytics",
+      "date": "June 15, 2026",
+      "url": "posts/post14.html",
+      "image": "DA"
+    },
+    {
+      "id": 15,
+      "title": "The Ethics of AI: Navigating the Moral Challenges of Artificial Intelligence",
+      "description": "A thoughtful exploration of the ethical considerations we must address as AI becomes more powerful.",
+      "category": "AI Ethics",
+      "date": "June 14, 2026",
+      "url": "posts/post15.html",
+      "image": "ETH"
+    }
+  ]
+}

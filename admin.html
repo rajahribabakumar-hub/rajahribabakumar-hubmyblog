@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Admin Panel for Raja AI Tech - Manage announcements and custom links.">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Admin Panel | Raja AI Tech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">RAI</span>
+                    <span class="logo-text">Raja AI Tech</span>
+                </a>
+                <nav class="nav">
+                    <button class="mobile-menu-btn" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="admin.html" class="active admin-link">Admin Panel</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" style="padding: 3rem 0;">
+            <div class="container">
+                <h1>Admin Panel</h1>
+                <p>Manage announcements, custom links, and site content</p>
+            </div>
+        </section>
+
+        <div class="admin-container">
+            <div class="admin-header">
+                <h2>Dashboard</h2>
+                <p>All changes are stored in your browser's LocalStorage and will persist on this device.</p>
+            </div>
+
+            <div class="admin-section">
+                <h2>Manage Announcements</h2>
+                <p style="color: var(--text-secondary); margin-bottom: 1rem;">Add or remove announcements that will appear on the homepage.</p>
+
+                <div class="success-message" id="announcement-success">Announcement saved successfully!</div>
+
+                <div class="form-group">
+                    <label for="announcement-text">Announcement Text</label>
+                    <input type="text" id="announcement-text" placeholder="Enter announcement text..." maxlength="200">
+                </div>
+
+                <div class="form-group">
+                    <label for="announcement-link">Link (Optional)</label>
+                    <input type="url" id="announcement-link" placeholder="https://example.com">
+                </div>
+
+                <button class="btn-primary" onclick="saveAnnouncement()">Save Announcement</button>
+
+                <div class="link-list" id="announcement-list">
+                    <p style="color: var(--text-secondary);">No announcements yet.</p>
+                </div>
+            </div>
+
+            <div class="admin-section">
+                <h2>Manage Custom Links</h2>
+                <p style="color: var(--text-secondary); margin-bottom: 1rem;">Add custom links that can be displayed on your site.</p>
+
+                <div class="success-message" id="link-success">Custom link saved successfully!</div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="link-title">Link Title</label>
+                        <input type="text" id="link-title" placeholder="Enter link title..." maxlength="100">
+                    </div>
+                    <div class="form-group">
+                        <label for="link-url">URL</label>
+                        <input type="url" id="link-url" placeholder="https://example.com">
+                    </div>
+                </div>
+
+                <button class="btn-primary" onclick="saveCustomLink()">Save Link</button>
+
+                <div class="link-list" id="custom-link-list">
+                    <p style="color: var(--text-secondary);">No custom links yet.</p>
+                </div>
+            </div>
+
+            <div class="admin-section">
+                <h2>Site Information</h2>
+                <div style="background-color: white; padding: 1.5rem; border-radius: 0.5rem; border: 1px solid var(--border-color);">
+                    <p><strong>Site Name:</strong> Raja AI Tech</p>
+                    <p><strong>Domain:</strong> rajakumar18.in</p>
+                    <p><strong>Owner:</strong> Raja Kumar</p>
+                    <p><strong>Contact Email:</strong> rajahribabakumar@gmail.com</p>
+                    <p><strong>Phone:</strong> 9682316132</p>
+                    <p><strong>YouTube:</strong> <a href="https://www.youtube.com/@rajakumar18in" target="_blank">@rajakumar18in</a></p>
+                </div>
+            </div>
+
+            <div class="admin-section" style="background-color: #fef2f2;">
+                <h2>Danger Zone</h2>
+                <p style="color: var(--text-secondary); margin-bottom: 1rem;">Clear all stored data from LocalStorage. This action cannot be undone.</p>
+                <button class="btn-secondary" style="background-color: #ef4444;" onclick="clearAllData()">Clear All Data</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Raja AI Tech</h3>
+                    <p>Your trusted source for AI insights, technology trends, and digital marketing strategies.</p>
+                    <div class="social-links">
+                        <a href="https://www.youtube.com/@rajakumar18in" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                            <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="posts/post1.html">Artificial Intelligence</a></li>
+                        <li><a href="posts/post3.html">Digital Marketing</a></li>
+                        <li><a href="posts/post5.html">SEO</a></li>
+                        <li><a href="posts/post4.html">AI Tools</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: rajahribabakumar@gmail.com</p>
+                    <p>Phone: 9682316132</p>
+                    <p>Website: rajakumar18.in</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Raja AI Tech. All rights reserved. | <a href="privacy-policy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
